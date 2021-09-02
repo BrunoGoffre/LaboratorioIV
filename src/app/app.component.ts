@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { Resultados } from './clases/resultados';
-import { Usuario } from './clases/usuario';
 
 
 @Component({

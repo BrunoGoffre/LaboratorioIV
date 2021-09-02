@@ -8,7 +8,7 @@ import { BienvenidoComponent } from './bienvenido/bienvenido.component';
 import { LoginComponent } from './login/login.component';
 import { ErrorComponent } from './error/error.component';
 import { HomeComponent } from './home/home.component';
-import { QuienSoyComponent } from './quien-soy/quien-soy.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { QuienSoyComponent } from './quien-soy/quien-soy.component';
     LoginComponent,
     ErrorComponent,
     HomeComponent,
-    QuienSoyComponent
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,

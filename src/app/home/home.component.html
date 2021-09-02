@@ -1,1 +1,20 @@
-<p>home works!</p>
+<h1> Ejercicio 1</h1>
+<hr> 
+
+<br><br>
+<label>Edad 1</label>
+<input type="number" [(ngModel)]="numero1" id="edad1"> 
+<br>
+<label>Edad 2</label>
+<input type="number" [(ngModel)]="numero2"  id="edad2" > 
+<br><br>
+<input type="button" value="Calcular"(click)="Calcular()" [ngStyle]="{'background-color': numero2!=10 ? 'red' : 'green'}">
+<input type="button" value="Limpiar cuadros de texto"(click)="Limpiar()">
+<br><br>
+<label>Promedio: {{resultado.promedio}} </label>
+<br>
+<label>Suma: {{resultado.suma}} </label>
+<br><br>
+<hr>
+
+<button routerLink="">Volver al inicio</button>
